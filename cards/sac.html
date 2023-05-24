@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+<title>Sacrifício - Edge Cases</title>
+  </head>
+<body>
+
+<div id='title'>
+<div class='titleIcon'>
+<img src='icons/sac.png' class='edgeTitle'>
+</div>
+<h1>Sacrifício</h1>
+</div>
+
+<div id='cases'>
+  <div class='case'><div class='edge'>
+    <img src='icons/sac.png' class='edgeIcon'/></div>
+    <p>Caso o Sacrifício seja ativado, você não foi eliminado, então o jogador não ganha uma moeda.</p>
+  </div>
+  <div class='case'><div class='edge'>
+    <img src='icons/ama.png' class='edgeIcon'/></div>
+    <p>Pode sacrificar a Aamante sem ser eliminado.</p>
+  </div>
+  <div class='case'><div class='edge'>
+    <img src='icons/sac.png' class='edgeIcon'/></div>
+    <p>Caso o Sacrifício saia da seu Campo e volte novamente, o sacrifício deve ser refeito.</p>
+  </div>
+  <div class='cardText'>
+    <b>Sacríficio (Sacrifício):</b> Revele uma carta, coloque-a no cemitério e puxe uma nova. Se você for eliminado com o Sacrifício em seu Campo, pegue de volta uma carta do cemitério, sem olhar, e volte ao jogo.
+  </div>
+
+  <br/><b>Modo Duo:</b>
+  <div class='case'><div class='edge'>
+    <img src='icons/sac.png' class='edgeIcon'/></div>
+    <p>Jogando em dupla, o poder do Sacrifício vale para o primeiro jogador da dupla a ser eliminado. Caso o jogador tenha sido eliminado antes do Sacrifício ser jogado, ele não pode usar o seu poder.</p>
+  </div>
+  <br/><b>Modo Single Shot:</b>
+  <div class='case'><div class='edge'>
+    <img src='icons/sac.png' class='edgeIcon'/></div>
+    <p>Caso não hajam cartas na pilha de compras para repor a carta sacrificada, você perde uma carta. Caso tenha apenas uma carta na mão e não hajam cartas na pilha de compras, O Sacrifício perde a ação.</p>
+  </div>
+  <br/><b>Modo Infinito:</b>
+  <div class='case'><div class='edge'>
+    <img src='icons/sac.png' class='edgeIcon'/></div>
+    <p>Caso você elimine a última carta de um jogador, porém ele ative o Sacrifício para voltar ao jogo, o jogador não foi eliminado, então você não ganha uma moeda.</p>
+  </div>
+
+</div>
+
+</body>
+</html>

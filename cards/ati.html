@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+<title>Atirador - Edge Cases</title>
+  </head>
+<body>
+
+<div id='title'>
+<div class='titleIcon'>
+<img src='icons/ati.png' class='edgeTitle'>
+</div>
+<h1>Atirador</h1>
+</div>
+
+<div id='cases'>
+  <div class='case'><div class='edge'>
+    <img src='icons/seq.png' class='edgeIcon'/></div>
+    <p>O Sequestrador não é ativado pela ação do Atirador.</p>
+  </div>
+  <div class='case'><div class='edge'>
+    <img src='icons/ref.png' class='edgeIcon'/></div>
+    <p>Caso um jogador tenha o Reflexo durante a ação do Atirador. O jogador com o Reflexo deve escolher um novo número, o sentido muda e o jogador do Atirador passa a ser alvo da ação. A ação acaba no Reflexo, que não conta como alvo. Pode ser Rebatido novamente.</p>
+  </div>
+  <div class='case'><div class='edge'>
+    <img src='icons/ati.png' class='edgeIcon'/></div>
+    <p>Caso não existam alvos disponíveis, por conta de proteções como o Guardião e o Guarda-Costas. O Atirador perde a ação.</p>
+  </div>
+  <div class='case'><div class='edge'>
+    <img src='icons/ati.png' class='edgeIcon'/></div>
+    <p>Não atinge o jogador que escolheu o número.</p>
+  </div>
+  <div class='case'><div class='edge'>
+    <img src='icons/ati.png' class='edgeIcon'/></div>
+    <p>Caso um dos alvos tenha mais de uma carta do número escolhido na mão, ele perder cada uma delas.</p>
+  </div>
+
+  <br/><b>Modo Duo:</b>
+  <div class='case'><div class='edge'>
+    <img src='icons/ati.png' class='edgeIcon'/></div>
+    <p>Jogando em dupla, a dupla do jogador que escolheu o número também é atingida pela ação.</p>
+  </div>
+</div>
+
+</body>
+</html>

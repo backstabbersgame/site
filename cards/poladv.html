@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+<title>Político Avançado - Edge Cases</title>
+  </head>
+<body>
+
+<div id='title'>
+<div class='titleIcon'>
+<img src='icons/poladv.png' class='edgeTitle'>
+</div>
+<h1>Político Avançado</h1>
+</div>
+
+<div id='cases'>
+  <div class='case'><div class='edge'>
+    <img src='icons/poladv.png' class='edgeIcon'/></div>
+    <p>Caso vença a eleição, ambos políticos irão para o seu Campo. Porém, cada político se torna o político avançado. Logo, não é necessário ter os dois políticos em seu Campo. Ou seja, se um dos políticos for removido ou desativado do Campo, o outro continua representando o vencedor das eleições, e continua tendo acesso às três opções de Líder.</p>
+  </div>
+  <div class='case'><div class='edge'>
+    <img src='icons/gua.png' class='edgeIcon'/></div>
+    <p>Jogadores com o Guardião em seu Campo não participam das Eleições.</p>
+  </div>
+  <div class='case'><div class='edge'>
+    <img src='icons/gc.png' class='edgeIcon'/></div>
+    <p>Guarda Costas não protegem das Eleições.</p>
+  </div>
+  <div class='case'><div class='edge'>
+    <img src='icons/ref.png' class='edgeIcon'/></div>
+    <p>Reflexoes não são ativados pelas Eleições.</p>
+  </div>
+  <div class='case'><div class='edge'>
+    <img src='icons/arb.png' class='edgeIcon'/></div>
+    <p>Jogadores bloqueados pelo Árbitro ainda participam das Eleições.</p>
+  </div>
+  <div class='case'><div class='edge'>
+    <img src='icons/poladv.png' class='edgeIcon'/></div>
+    <p>Caso não hajam perfis disponíveis, use sua soma real.</p>
+  </div>
+  <div class='case'><div class='edge'>
+    <img src='icons/poladv.png' class='edgeIcon'/></div>
+    <p>Caso não todos os jogadores estejam protegidos no momento das Eleições, as Eleições são canceladas e cada jogador com um Político, deve utilizar como se fosse um Político comum.</p>
+  </div>
+  <div class='case'><div class='edge'>
+    <img src='icons/dit.png' class='edgeIcon'/></div>
+    <p>Caso precise jogar o Político Avançado, enquanto ele estiver bloqueado pelo Ditador, ele deve ir para o Descarte. Não acontecem Eleições.</p>
+  </div>
+  <div class='case'><div class='edge'>
+    <img src='icons/poladv.png' class='edgeIcon'/></div>
+    <p>Caso um Político Avançado seja movido de um Campo para outro depois das Eleições e os dois Políticos ainda estiverem ativos, refaçam as Eleições.</p>
+  </div>
+  <div class='case'><div class='edge'>
+    <img src='icons/poladv.png' class='edgeIcon'/></div>
+    <p>Caso tenha os dois Político Avançados em seu Campo sem eleições, você deve usar o valor do seu próprio Líder nas comprações.</p>
+  </div>
+  <div class='case'><div class='edge'>
+    <img src='icons/vir.png' class='edgeIcon'/></div>
+    <p>Caso algum jogador entregue um Vírus durante a Eleição, o jogador que receber deve ativar a Epidemia.</p>
+  </div>
+
+</br><b>Epidemia (Vírus):</b>
+  <div class='case'>
+    Os jogadores de ambos os lados da pessoa que recebeu o Vírus devem descartar todas as cartas da mão junto com ele. Depois, todos puxam uma carta a menos.
+       Caso alguém esteja protegido, a próxima pessoa desprotegida ao lado dela deve tomar o lugar, podendo afetar quem jogou a carta que iniciou a ação.
+       Se todos estiverem protegidos ou a próxima pessoa disponível já estiver participando da ação, não é afetada novamente.
+  </div>
+
+
+  <br/><b>Modo Duo:</b>
+  <div class='case'><div class='edge'>
+    <img src='icons/poladv.png' class='edgeIcon'/></div>
+    <p>Jogando em dupla, o poder do Político Avançado vale também para a sua dupla. No caso de cada um da dupla usar um Político Avançado, as Eleições não acontecem.</p>
+  </div>
+
+</br><b>Campanha (Político Avançado):</b>
+  <div class='case'>
+    Quando participar de uma comparação, você pode escolher mudar o valor de uma das cartas de sua mão com o valor da carta do Líder do jogador ao seu lado. Se o Político Avançado é de Direita, vale para a pessoa a sua direita. Se o Político Avançado é de Esquerda, vale para a pessoa a sua esquerda.
+    Caso o jogador possua os dois Político Avançados em seu Campo, a troca deve ser com o valor da carta em seu próprio Líder.
+   O Político Avançado Avançado se comporta da mesma forma, porém, caso ocorram Eleições, o vencedor passa a ter a obrigação de sempre mudar seu valor com a carta em algum Líder, podendo escolher entre o Líder a direita, a esquerda ou o próprio Líder.
+  </div>
+
+</ber><b>Eleições (Político Avançado):</b> 
+  <div class='case'>
+    Se o segundo Político for utilizado enquanto o primeiro está no Campo de outro jogador, os jogadores que não têm Político e não estão protegidos devem entregar uma carta da mão para o Político em quem eles escolherem votar.
+    O Político que receber mais votos (cartas) leva as duas cartas de Político para seu Campo. O político vencedor deve, sem olhar, embaralhar as cartas recebidas e em seguida devolve-las aos seus eleitores.
+    Caso um Político seja movido para outro Campo, as eleições são realizadas novamente.
+  </div>
+</div>
+
+</body>
+</html>
