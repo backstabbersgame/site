@@ -23,6 +23,27 @@ const lvl2 = {
   "emp": "Empreendedor"
 };
 
+// const lvl1 = {
+//   "seq": "Sequestrador",
+//   "aju": "Ajudante",
+//   "ass": "Assassino",
+//   "esp": "Espião",
+//   "pob": "Pobre",
+//   "gua": "Guardião",
+//   "neg": "Negociante",
+//   "met": "Metamorfo",
+//   "ric": "Rica",
+//   "vid": "Vidente",
+//   "anj": "Anjo",
+//   "ama": "Amante",
+//   "dc": "Duas Caras",
+//   "Sort": "Sortudo",
+//   "arb": "Árbitro",
+//   "inc": "Incendiária",
+//   "jui": "Juiz",
+//   "emp": "Empreendedor"
+// };
+
 const lvl3 = {
   "fis": "Fiscal",
   "ora": "Oráculo",
@@ -42,6 +63,29 @@ const lvl4 = {
   "dit": "Ditador",
   "seg": "Segurança"
 };
+
+// const lvl2 = {
+//   "fis": "Fiscal",
+//   "ati": "Atirador",
+//   "ass": "Assassino",
+//   "esp": "Espião",
+//   "ora": "Oráculo",
+//   "pol": "Político",
+//   "gua": "Guardião",
+//   "traf": "Traficante",
+//   "usu": "Usurpadora",
+//   "fof": "Fofoqueira",
+//   "lad": "Ladrão",
+//   "sac": "Sacrifício",
+//   "reb": "Reflexo",
+//   "gc": "Guarda Costas",
+//   "sorr": "Sorrateira",
+//   "cam": "Cambista",
+//   "dit": "Ditador",
+//   // "advo": "Advogado",
+//   "met": "Metamorfo",
+//   "seg": "Segurança"
+// };
 
 const lvl5 = {
   "apa": "Apanhador",
@@ -72,14 +116,18 @@ const lvladv = {
   "traiadv": "Traidora"
 };
 
-const lvltypes = {
-  "des": "Descriminador",
-  "del": "Delator",
-  "com": "Comparador",
-  "nega": "Negacionista",
-  "espc": "Especulador",
-  "apr": "Aproveitador"
-};
+// const lvlexp = {
+//   "mal": "Malandra",
+//   "val": "Valentão",
+//   "beb": "Bêbado",
+//   "maf": "Mafioso",
+//   "ami": "Amigo",
+//   "que": "Quenga",
+//   "men": "Mentiroso",
+//   "str": "Stripper",
+//   "apr": "Aproveitador",
+//   "pro": "Procurado"
+// };
 
 const lvlcons = {
   "esc": "Escassez",
@@ -123,8 +171,8 @@ function getCardsByLevel(level){
     case 'lvladv':
       return lvladv;
       break;
-    case 'lvltypes':
-      return lvltypes;
+    case 'lvlexp':
+      return lvlexp;
       break;
     case 'lvlcons':
       return lvlcons;
@@ -134,14 +182,6 @@ function getCardsByLevel(level){
       return ret;
   }
 };
-
-function showPage(page){
-  var element = document.getElementsByClassName("active");
-  element.item(0).classList.remove("active");
-  var element = document.getElementById(page);
-  element.classList.add("active");
-}
-
 
 function changeLevel(){
   let nivelselect = document.getElementById('nivelselect');
@@ -174,4 +214,3 @@ function displayHighligths(){
 function displayOptional(){
   document.getElementById('edgecases').src = 'opcional.html';
 };
-

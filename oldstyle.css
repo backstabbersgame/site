@@ -1,27 +1,53 @@
 @font-face {
-  font-family: nunito;
-  src: url(fonts/Nunito-Regular.ttf);
+  font-family: aller;
+  src: url(ALLER_LT.ttf);
 }
 @font-face {
-  font-family: nunitoBold;
-  src: url(fonts/Nunito-Bold.ttf);
+  font-family: allerBold;
+  src: url(ALLER.ttf);
 }
 
 body{
-  font-family: nunito;
+  font-family: aller;
   height: 100%;
   color: black;
-  background: darkgray;
+  background: white;
+}
+
+#manual{
+  position: absolute;
+  top: 10px;
+  right: 200px;
+  font-style: allerBold;
+  background: black;
+  color: white;
+  padding: 3px;
+  text-decoration: none;
+}
+#manual:hover{
+  background: black;
+  color: yellow;
+  text-decoration: underline;
+}
+
+#manualexp{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-style: allerBold;
+  background: black;
+  color: white;
+  padding: 3px;
+  text-decoration: none;
+}
+#manualexp:hover{
+  background: black;
+  color: yellow;
+  text-decoration: underline;
 }
 
 b{
-  font-family: nunitoBold;
-}
-p{
-  font-family: nunito;
-}
-a{
-  font-family: nunitoBold;
+  font-family: allerBold;
 }
 
 #body{
@@ -32,76 +58,6 @@ a{
   float: left;
   margin: 5px;
 }
-
-#topmenu{
-  position: absolute;
-  background: black;
-  top: 0px;
-  right: 0px;
-  width: 100%;
-  display: flex;
-  color: white;
-  height: 60px;
-}
-#logo{
-  position: absolute;
-  left: 15px;
-  top: 5px;
-}
-#menuOptions{
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  font-size: 18px;
-}
-#menuOptions ul{
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-#menuOptions  li {
-  display: inline;
-  float: left;
-}
-#menuOptions a{
-  display: block;
-  padding: 17.5px 15px ;
-}
-#menuOptions li a:hover {
-  background-color: #222;
-  color: white;
-}
-.active {
-  background-color: lightgray;
-  color: black;
-}
-
-
-
-#footer{
-  position: absolute;
-  height: 30 px;
-  background: black;
-  bottom: 0px;
-  right: 0px;
-  width: 100%;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-#footer a{
-  color: white;
-  text-decoration: none;
-}
-
-
-
-
-
-
-
 
 select{
   width: 100%;
