@@ -1,10 +1,10 @@
 @font-face {
   font-family: nunito;
-  src: url(fonts/Nunito-Regular.ttf);
+  src: url(../fonts/Nunito-Regular.ttf);
 }
 @font-face {
   font-family: nunitoBold;
-  src: url(fonts/Nunito-Bold.ttf);
+  src: url(../fonts/Nunito-Bold.ttf);
 }
 
 body{
@@ -77,11 +77,19 @@ a{
   color: black;
 }
 
-
+#content{
+  overflow-x: auto;
+  overflow-y: auto;
+  position: absolute;
+  top: 60px;
+  bottom: 40px;
+  right: 0px;
+  left: 0px;
+}
 
 #footer{
   position: absolute;
-  height: 30 px;
+  height: 40 px;
   background: black;
   bottom: 0px;
   right: 0px;
@@ -96,91 +104,24 @@ a{
   text-decoration: none;
 }
 
-
-
-
-
-
-
-
-select{
-  width: 100%;
-}
-
-#content{
-  position: absolute;
-  top: 120px;
-  left:0;
-  right: 0;
-  bottom: 0;
-}
-
-#edgecases{
-  border: none;
-  width: 100%;
-  height: 100%;
-}
-
-#title{
-  display: block;
-}
 h1{
   margin-left: 60px;
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 0;
   height: 50px;
   display: flex;
   align-items: center;
 }
-.titleIcon{
-  float: left;
-  height: 50px;
-  width: 50px;
-  display: flex;
-  align-items: center;
-}
-.edgeTitle{
-  max-height: 50px;
-  max-width: 50px;
+
+.subtitle{
+  padding-left: 50px;
 }
 
-.case{
-  display: flex;
-  align-items: center;
-  border-bottom: 1px dashed;
-}
-.edge{
-  width: 30px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-}
-.edgeIcon{
-  max-height: 30px;
-  max-width: 30px;
-  float: left;
-}
-p{
-  padding-left: 5px;
-}
 
-.innerIcons{
-  display: flex;
+
+#contentApoie{
+  justify-content: center;
   align-items: center;
-  padding-left: 5px;
-}
-.innerEdge{
-  max-width: 20px;
-  max-height: 20px;
-  padding-left: 5px;
-}
-
-.cardText{
-  border: solid;
-  padding: 10px;
-}
-
-.keyword{
-  border: double;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
 }

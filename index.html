@@ -1,54 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Backstabbers - Edge Cases</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Backstabbers</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="shortcut icon" href="favicon.ico">
     <!-- <script src="jquery-3.5.1.min.js"></script> -->
     <script src="script.js"></script>
   </head>
-<body>
+  <body>
+    <div id="topmenu">
+      <div id="logo"><a href="index.html"><img src="logoBranca.png" id="home" name="home" height="50 px" /></a></div>
+      <div id="menuOptions">
+        <ul>
+          <li><a id="jogo" class="active" onclick="showPage('jogo')">O Jogo</a></li>
+          <li><a id="casos" onclick="showPage('casos')">Casos Especiais</a></li>
+          <li><a id="regras" onclick="showPage('regras')">Regras Opicionais</a></li>
+          <li><a id="apoie" onclick="showPage('apoie')">Apoie</a></li>
+          <li><a id="sobre" onclick="showPage('sobre')">Sobre</a></li>
+        </ul>
+      </div>
+    </div>
 
-<div id="body">
-<!-- <a id='manual' target="_blank" href="Manual.pdf">Baixe o Manual</a> -->
-<!-- <a id='manualexp' target="_blank" href="ManualExp.pdf">Manual das Expansões</a> -->
-<h2>Selecione a carta para ver seus Edge Cases:</h2>
+    <div id="content">
+      
+    </div>
 
-<div id='nivel'>
-  <label for='nivel'><b>Selecione o nível da carta:</b></label><br/>
-  <select name='nivel' id='nivelselect' onchange='changeLevel()'>
-    <option id='nivelph' value="0">Selecionar</option>
-    <option value="lvl1">Nível 1</option>
-    <option value="lvl2">Nível 2</option>
-    <option value="lvl3">Nível 3</option>
-    <option value="lvl4">Nível 4</option>
-    <option value="lvl5">Nível 5</option>
-    <!-- <option value="lvladv">Avançadas</option> -->
-    <!-- <option value="lvlexp">Expansões</option> -->
-    <option value="lvlcons">Constituição</option>
-  </select>
-</div>
-<div id='carta'>
-  <label for='carta'><b>Selecione da carta:</b></label><br/>
-  <select name='carta' id='cartaselect'>
-    <option id='cartaph' value="../highlight">Selecionar</option>
-  </select>
-</div>
-<br/>
-<div id='botao'>
-  <button id='submit' onclick="displayEdgeCases()">Mostrar</button>
-</div>
-<div id='botao'>
-  <button id='home' onclick="displayHighligths()">Destaques</button>
-</div>
-<div id='botao'>
-  <button id='home' onclick="displayOptional()">Regras Opicionais</button>
-</div>
-<br/>
-<div id="content">
-<iframe id='edgecases' src='highlight.html'>
-</iframe>
-</div>
-</div>
-</body>
+    <div id="footer"><p><a href="mailto:backstabbersgame@gmail.com ">backstabbersgame@gmail.com</li> | <a href="https://instagram.com/backstabbersgame" target="_blank">@backstabbersgame</li></p></div>
+  </body>
 </html>

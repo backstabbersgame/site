@@ -1,0 +1,63 @@
+select{
+  width: 100%;
+}
+
+#edgecases{
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+#title{
+  display: block;
+}
+
+.titleIcon{
+  float: left;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+}
+.edgeTitle{
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.case{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px dashed;
+}
+.edge{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.edgeIcon{
+  max-height: 30px;
+  max-width: 30px;
+  float: left;
+}
+
+.innerIcons{
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+.innerEdge{
+  max-width: 20px;
+  max-height: 20px;
+  padding-left: 5px;
+}
+
+.cardText{
+  border: solid;
+  padding: 10px;
+}
+
+.keyword{
+  border: double;
+  padding: 10px;
+}
