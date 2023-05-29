@@ -82,9 +82,10 @@ a{
   overflow-y: auto;
   position: absolute;
   top: 60px;
-  bottom: 40px;
-  right: 0px;
   left: 0px;
+  border:none;
+  height: calc(100% - 115px);
+  width: 100%;
 }
 
 #footer{
@@ -116,8 +117,6 @@ h1{
 .subtitle{
   padding-left: 50px;
 }
-
-
 
 #contentApoie{
   justify-content: center;
