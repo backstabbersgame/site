@@ -24,23 +24,6 @@ select{
   max-width: 50px;
 }
 
-.case{
-  display: flex;
-  align-items: center;
-  border-bottom: 1px dashed;
-}
-.edge{
-  width: 30px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-}
-.edgeIcon{
-  max-height: 30px;
-  max-width: 30px;
-  float: left;
-}
-
 .innerIcons{
   display: flex;
   align-items: center;
