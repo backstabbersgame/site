@@ -2,15 +2,11 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="../../css/style.css">
-<title>Manipulador - Edge Cases</title>
   </head>
 <body>
 
 <div id='title'>
-<div class='titleIcon'>
-<img src='icons/man.png' class='edgeTitle'>
-</div>
-<h1>Manipulador</h1>
+<h1>Manipuladora</h1>
 </div>
 
 <div id='cases'><div class='case'>
@@ -18,10 +14,16 @@
 <div class='edge'>
     <p>Caso puxe o Vírus da mão de um jogador, execute a ação do Vírus.</p>
   </div>
-  <div class='cardText'>
-    <b>Vírus:</b> Descarte todas as cartas da mão e puxe uma carta a menos.
+</div>
+
+<div class='case'>
+  <div class='recap'>
+    <b>Vírus:</b> <p>Quando esta carta passar da MÃO de um jogador para a MÃO de outro, o jogador que receber deve:
+      <br>- Imediatamente jogar esta carta
+      <br>- Descartar todas as cartas em sua mão. 
+      <br>- Comprar uma carta a menos do que as que descartou. </p>
   </div>
-  </div>
+</div>
 
 <div class='case'>
     <img src='icons/dc.png' class='edgeIcon'/>
@@ -33,7 +35,7 @@
 <div class='case'>
     <img src='icons/ref.png' class='edgeIcon'/>
 <div class='edge'>
-    <p>Caso o Reflexo precise rebater a ação do seu próprio Manipulador contra você. O Manipulador perde a ação.</p>
+    <p>Caso o Reflexo precise refletir a ação da sua própria Manipuladora contra você. A Manipuladora perde a ação.</p>
   </div>
   </div>
 
@@ -56,41 +58,47 @@
 <div class='edge'>
     <p>Caso puxe a Fofoqueira, execute a ação dela.</p>
   </div>
-  <div class='cardText'>
-    <b>Fofoqueira:</b> Escolha uma pessoa para revelar a soma da mão.
+</div>
+
+<div class='case'>
+  <div class='recap'>
+    <b>Fofoqueira:</b>  Escolha um jogador para revelar a soma das cartas em sua mão.
   </div>
   </div>
 
 <div class='case'>
     <img src='icons/man.png' class='edgeIcon'/>
 <div class='edge'>
-    <p>A carta puxada vai para o seu Líder e o Manipulador vai para o Descarte.</p>
+    <p>A carta puxada vai para o seu Líder e a Manipuladora vai para o Descarte.</p>
   </div>
   </div>
 
 <div class='case'>
     <img src='icons/man.png' class='edgeIcon'/>
 <div class='edge'>
-    <p>Caso não existam alvos disponíveis, o Manipulador perde a ação.</p>
+    <p>Caso não existam alvos disponíveis, a Manipuladora perde a ação.</p>
+  </div>
   </div>
 
-  <br/><b>Modo Duo:</b>
-  </div>
-
-<div class='case'>
-    <img src='icons/man.png' class='edgeIcon'/>
-<div class='edge'>
-    <p>Jogando em dupla, você pode usar a ação do Manipulador em sua dupla.</p>
-  </div>
-  <br/><b>Modo Single Shot:</b>
-  </div>
+  <br/><b class="subtitle">Modo Duo:</b>
 
 <div class='case'>
     <img src='icons/man.png' class='edgeIcon'/>
 <div class='edge'>
-    <p>Caso não hajam cartas na pilha de compras para repor o Manipulador, você perde uma carta.</p>
+    <p>Jogando em dupla, você pode usar a ação da Manipuladora em sua dupla.</p>
+  </div>
+    </div>
+
+  <br/><b class="subtitle">Modo Limite:</b>
+
+<div class='case'>
+    <img src='icons/man.png' class='edgeIcon'/>
+<div class='edge'>
+    <p>Caso não hajam cartas na pilha de compras para repor a Manipuladora, o alvo perde uma carta.</p>
   </div>
 </div>
+
+<img src="icons/man.png" id="art"/>
 
 </body>
 </html>
