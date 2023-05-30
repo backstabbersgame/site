@@ -2,11 +2,7 @@ select{
   width: 100%;
 }
 
-#edgecases{
-  border: none;
-  width: 100%;
-  height: 100%;
-}
+
 
 #title{
   display: block;

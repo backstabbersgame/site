@@ -134,9 +134,43 @@ h1{
   padding-left: 50px;
 }
 .edgeIcon{
-  max-height: 50px;
-  max-width: 50px;
+/*  max-height: 50px;*/
+  width: 50px;
   float: left;
+}
+#edgecases{
+  position: absolute;
+  right: 0;
+  border: none;
+  width: 100%;
+  height: calc(100% - 190px);
+}
+#select{
+  display: flex;
+  padding-left: 50px;
+}
+select{
+  width: 100%;
+}
+#carta{
+  margin-left: 20px;
+}
+#botao{
+  margin:20px 0 20px 20px;
+}
+.recap{
+  border: dashed gray 2px;
+  min-height: 50px;
+  padding: 10px;
+  width: 60%;
+  margin: 20px 50px;
+  text-align: justify;
+}
+#art{
+  position: fixed;
+  height: 100%;
+  top: 0;
+  right: 5%;
 }
 
 /*Apoie*/
@@ -145,4 +179,10 @@ h1{
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (max-width: 600px){
+  #art{
+    display: none;
+  }
 }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/caseScript.js"></script>
+  </head>
+<body>
+  <div id='title'>
+    <h1>Regras Opicionais</h1>
+    <p class='subtitle'>Selecione a carta para ver seus Edge Cases:</p>
+  </div>
+
+  <div id="select">
+    <div id='nivel'>
+      <label for='nivel'><b>Selecione o nível da carta:</b></label><br/>
+      <select name='nivel' id='nivelselect' onchange='changeLevel()'>
+        <option id='nivelph' value="0">Selecionar</option>
+        <option value="lvl1">Nível 1</option>
+        <option value="lvl2">Nível 2</option>
+        <option value="lvl3">Nível 3</option>
+        <option value="lvl4">Nível 4</option>
+        <option value="lvl5">Nível 5</option>
+        <option value="lvladv">Avançadas</option>
+        <option value="lvltypes">Expansão Tipos</option>
+        <option value="lvlcons">Constituição</option>
+      </select>
+    </div>
+    <div id='carta'>
+      <label for='carta'><b>Selecione da carta:</b></label><br/>
+      <select name='carta' id='cartaselect'>
+        <option id='cartaph' value="../highlight">Selecionar</option>
+      </select>
+    </div>
+    <br/>
+    <div id='botao'>
+      <button id='submit' onclick="displayEdgeCases()">Mostrar</button>
+    </div>
+    <div id='botao'>
+      <button id='home' onclick="displayHighligths()">Destaques</button>
+    </div>
+    <br/>
+  </div>
+  <iframe id='edgecases' src='cases/highlight.html'>
+  </iframe>
+</body>
+</html>
