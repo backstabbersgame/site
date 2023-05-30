@@ -58,17 +58,17 @@ const lvladv = {
   "ajuadv": "Ajudante",
   "sortadv": "Sortudo",
   "fisadv": "Fiscal",
+  "sorradv": "Sorrateira",
   "arradv": "Arruaceiro",
-  "oraadv": "Oráculo",
   "det": "Detetive",
   "inf": "Infiltrado",
   "as": "Agente Secreto",
+  "oraadv": "Oráculo",
   "poladv": "Político",
-  "caradv": "Cartomante",
   "trafadv": "Traficante",
+  "caradv": "Cartomante",
   "usuadv": "Usurpadora",
   "vidad": "Vidente",
-  "sorradv": "Sorrateira",
   "traiadv": "Traidora"
 };
 

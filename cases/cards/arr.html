@@ -2,56 +2,72 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="../../css/style.css">
-<title>Arruaceiro - Edge Cases</title>
   </head>
 <body>
 
 <div id='title'>
-<div class='titleIcon'>
-<img src='icons/arr.png' class='edgeTitle'>
-</div>
 <h1>Arruaceiro</h1>
 </div>
 
-<div id='cases'>
-  <div class='case'><div class='edge'>
-    <img src='icons/gua.png' class='edgeIcon'/></div>
+<div id='cases'><div class='case'>
+    <img src='icons/gua.png' class='edgeIcon'/>
+<div class='edge'>
     <p>Jogadores com Guardião em seu Campo não participam da ação.</p>
   </div>
-  <div class='case'><div class='edge'>
-    <img src='icons/ref.png' class='edgeIcon'/></div>
+  </div>
+
+<div class='case'>
+    <img src='icons/ref.png' class='edgeIcon'/>
+<div class='edge'>
     <p>Não ativa o Reflexo.</p>
   </div>
-  <div class='case'><div class='edge'>
-    <img src='icons/gc.png' class='edgeIcon'/></div>
+  </div>
+
+<div class='case'>
+    <img src='icons/gc.png' class='edgeIcon'/>
+<div class='edge'>
     <p>Jogadores com Guarda Costas podem se defender.</p>
   </div>
-  <div class='case'><div class='edge'>
-    <img src='icons/arr.png' class='edgeIcon'/></div>
+  </div>
+
+<div class='case'>
+    <img src='icons/arr.png' class='edgeIcon'/>
+<div class='edge'>
     <p>O jogador que usou o Arruaceiro, também está incluso na ação.</p>
   </div>
-  <div class='case'><div class='edge'>
-    <img src='icons/arr.png' class='edgeIcon'/></div>
+  </div>
+
+<div class='case'>
+    <img src='icons/arr.png' class='edgeIcon'/>
+<div class='edge'>
     <p>Caso todos os outros jogadores estejam protegidos, o Arruaceiro perde a ação.</p>
   </div>
-  <div class='case'><div class='edge'>
-    <img src='icons/vir.png' class='edgeIcon'/></div>
+  </div>
+
+<div class='case'>
+    <img src='icons/vir.png' class='edgeIcon'/>
+<div class='edge'>
     <p>Caso algum jogador tenha o Vírus na mão após a ação do Arruaceiro, ativa a Epidemia.</p>
   </div>
+</div>
 
-</br><b>Epidemia (Vírus):</b> 
   <div class='case'>
-    Os jogadores de ambos os lados da pessoa que recebeu o Vírus devem descartar todas as cartas da mão junto com ele. Depois, todos puxam uma carta a menos.
-       Caso alguém esteja protegido, a próxima pessoa desprotegida ao lado dela deve tomar o lugar, podendo afetar quem jogou a carta que iniciou a ação.
-       Se todos estiverem protegidos ou a próxima pessoa disponível já estiver participando da ação, não é afetada novamente.
+    <div class="recap">
+   <b>Epidemia (Vírus):</b> 
+    Os jogadores dos lados esquerdo e direito da pessoa que recebeu o Vírus devem descartar todas as cartas da mão junto com ele. Depois, comprar uma carta a menos do que a quantidade que descartaram. Caso alguém esteja protegido, a próxima pessoa desprotegida ao lado dela deve tomar o lugar, podendo afetar quem jogou a carta que iniciou a ação. Se todos estiverem protegidos ou a próxima pessoa disponível já estiver participando da ação, não é afetada novamente.
+    </div>
   </div>
 
-  <br/><b>Modo Duo:</b>
-  <div class='case'><div class='edge'>
-    <img src='icons/arr.png' class='edgeIcon'/></div>
+  <br/><b class="subtitle">Modo Duo:</b>
+
+<div class='case'>
+    <img src='icons/arr.png' class='edgeIcon'/>
+<div class='edge'>
     <p>Jogando em dupla, a ação do Arruaceiro atinge normalmente sua dupla.</p>
   </div>
 </div>
+
+<img id="art" src="icons/arr.png" />
 
 </body>
 </html>

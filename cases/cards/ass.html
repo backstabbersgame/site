@@ -2,44 +2,58 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="../../css/style.css">
-<title>Assassino - Edge Cases</title>
   </head>
 <body>
 
 <div id='title'>
-<div class='titleIcon'>
-<img src='icons/ass.png' class='edgeTitle'>
-</div>
 <h1>Assassino</h1>
 </div>
 
-<div id='cases'>
-  <div class='case'><div class='edge'>
-    <img src='icons/ref.png' class='edgeIcon'/></div>
-    <p>Caso seja rebatido. O Reflexo pode escolher um novo número.</p>
+<div id='cases'><div class='case'>
+    <img src='icons/ref.png' class='edgeIcon'/>
+<div class='edge'>
+    <p>Caso seja refletido. O Reflexo pode escolher um novo número.</p>
   </div>
-  <div class='case'><div class='edge'>
-    <img src='icons/ref.png' class='edgeIcon'/></div>
-    <p>Caso o Reflexo precise rebater a ação do seu próprio Assassino contra você. A ação ocorre normalmente.</p>
   </div>
-  <div class='case'><div class='edge'>
-    <img src='icons/ass.png' class='edgeIcon'/></div>
+
+<div class='case'>
+    <img src='icons/ref.png' class='edgeIcon'/>
+<div class='edge'>
+    <p>Caso o Reflexo precise refletir a ação do seu próprio Assassino contra você. A ação ocorre normalmente.</p>
+  </div>
+  </div>
+
+<div class='case'>
+    <img src='icons/ass.png' class='edgeIcon'/>
+<div class='edge'>
     <p>Caso não existam alvos disponíveis. O Assassino perde a ação.</p>
   </div>
-  <div class='case'><div class='edge'>
-    <img src='icons/ass.png' class='edgeIcon'/></div>
+  </div>
+
+<div class='case'>
+    <img src='icons/ass.png' class='edgeIcon'/>
+<div class='edge'>
     <p>O Assassino não pode tentar adivinha a carta Reserva de outro jogador.</p>
   </div>
-  <br/><b>Modo Duo:</b>
-  <div class='case'><div class='edge'>
-    <img src='icons/ass.png' class='edgeIcon'/></div>
-    <p>Jogando em dupla, você NÃO pode usar a ação do Assassino em sua dupla.</p>
+    </div>
+
+  <br/><b class="subtitle">Modo Duo:</b>
+
+<div class='case'>
+    <img src='icons/ass.png' class='edgeIcon'/>
+<div class='edge'>
+    <p>Jogando em dupla, você pode usar a ação do Assassino em sua dupla.</p>
   </div>
-  <div class='case'><div class='edge'>
-    <img src='icons/ref.png' class='edgeIcon'/></div>
-    <p>Jogando em dupla, o alvo pode rebater o Assassino para sua dupla.</p>
+  </div>
+
+<div class='case'>
+    <img src='icons/ref.png' class='edgeIcon'/>
+<div class='edge'>
+    <p>Jogando em dupla, o alvo pode refletir o Assassino para sua dupla.</p>
   </div>
 </div>
+
+<img id="art" src="icons/ass.png" />
 
 </body>
 </html>

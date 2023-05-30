@@ -168,7 +168,7 @@ select{
 }
 #art{
   position: fixed;
-  height: 100%;
+  width: 25%;
   top: 0;
   right: 5%;
 }
