@@ -2,14 +2,10 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="../../css/style.css">
-<title>Necromante - Edge Cases</title>
   </head>
 <body>
 
 <div id='title'>
-<div class='titleIcon'>
-<img src='icons/nec.png' class='edgeTitle'>
-</div>
 <h1>Necromante</h1>
 </div>
 
@@ -18,20 +14,25 @@
 <div class='edge'>
     <p>Caso o alvo pegue a Traidora, executa sua ação normalmente.</p>
   </div>
-  <div class='cardText'>
-    <b>Traidora:</b> Descarte-a e continue a jogada com as cartas que restaram em sua mão.
-  </div>
+   </div>
 
-  </div>
+<div class="case">
+  <div class='recap'>
+    <b>Traidora:</b> Esta carta te traiu. 
+<br>Quando tiver esta carta em sua mão:
+<br>- Descarte-a, caso não tenha como se livrar dela. 
+<br>- Se for seu turno, jogue outra carta sem comprar uma nova.
+  </div> 
+</div>
 
 <div class='case'>
     <img src='icons/nec.png' class='edgeIcon'/>
 <div class='edge'>
     <p>Caso não existam cartas no cemitério. O Necromante perde a ação.</p>
   </div>
-
-  <br/><b>Modo Duo:</b>
   </div>
+
+  <br/><b class="subtitle">Modo Duo:</b>
 
 <div class='case'>
     <img src='icons/nec.png' class='edgeIcon'/>
@@ -39,6 +40,8 @@
     <p>Jogando em dupla, você pode usar a ação do Necromante em sua dupla.</p>
   </div>
 </div>
+
+<img src="icons/nec.png" id="art" />
 
 </body>
 </html>

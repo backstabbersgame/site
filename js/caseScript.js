@@ -102,6 +102,9 @@ const lvlcons = {
   "ret": "Lei do Retorno",
   "tro": "Lei da Troca"
 };
+const pro = {
+  "pro":"Procurado"
+};
 
 function getCardsByLevel(level){
   switch(level) {
@@ -128,6 +131,9 @@ function getCardsByLevel(level){
       break;
     case 'lvlcons':
       return lvlcons;
+      break;
+    case 'pro':
+      return pro;
       break;
     default:
       var ret = {0 : "Nível inválido"};

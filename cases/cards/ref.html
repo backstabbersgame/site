@@ -2,14 +2,10 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="../../css/style.css">
-<title>Reflexo - Edge Cases</title>
   </head>
 <body>
 
 <div id='title'>
-<div class='titleIcon'>
-<img src='icons/ref.png' class='edgeTitle'>
-</div>
 <h1>Reflexo</h1>
 </div>
 
@@ -51,21 +47,14 @@
 <div class='case'>
     <img src='icons/sort.png' class='edgeIcon'/>
 <div class='edge'>
-    <p>Rebate apostas do Sortudo.</p>
+    <p>Reflete apostas do Sortudo.</p>
   </div>
   </div>
 
 <div class='case'>
     <img src='icons/anj.png' class='edgeIcon'/>
 <div class='edge'>
-    <p>Rebate o Anjo.</p>
-  </div>
-  </div>
-
-<div class='case'>
-    <img src='icons/ati.png' class='edgeIcon'/>
-<div class='edge'>
-    <p>Caso um jogador tenha o Reflexo durante a ação do Atirador. O jogador com o Reflexo deve escolher um novo número, o jogador do Atirador passa a ser alvo da ação. A ação acaba no Reflexo, que não conta como alvo. Pode ser Rebatido novamente.</p>
+    <p>Reflete o Anjo.</p>
   </div>
   </div>
 
@@ -86,33 +75,35 @@
 <div class='case'>
     <img src='icons/det.png' class='edgeIcon'/>
 <div class='edge'>
-    <p>Não pode rebater a ação Seguir Pistas do Detetive.</p>
+    <p>Não pode refletir a ação Seguir Pistas do Detetive.</p>
   </div>
+</div>
 
-</br><b>Seguir Pistas (Detetive):</b>
-  <div class='case'>
-    Veja as cartas da mão de cada jogador que tiver no Campo cartas com o mesmo valor das cartas da mão do seu primeiro alvo.
-  </div>
-  </div>
-
-<div class='case'>
-    <img src='icons/ref.png' class='edgeIcon'/>
-<div class='edge'>
-    <p>Pode rebater uma ação que já foi rebatida para você.</p>
+    <div class='case'>
+      <div class="recap">
+      <b>Seguir Pistas (Detetive):</b> 
+    Caso  algum jogador tenha em seu Campo cartas  do mesmo valor de uma das cartas do seu alvo, você deve ver também as cartas  da mão desse jogador.
   </div>
   </div>
 
 <div class='case'>
     <img src='icons/ref.png' class='edgeIcon'/>
 <div class='edge'>
-    <p>Rebate também ações contra o seu Campo.</p>
+    <p>Pode refletir uma ação que já foi refletida para você.</p>
   </div>
   </div>
 
 <div class='case'>
     <img src='icons/ref.png' class='edgeIcon'/>
 <div class='edge'>
-    <p>Não pode rebater reações.</p>
+    <p>Reflete também ações contra o seu Campo.</p>
+  </div>
+  </div>
+
+<div class='case'>
+    <img src='icons/ref.png' class='edgeIcon'/>
+<div class='edge'>
+    <p>Não pode refeltir reações.</p>
   </div>
   </div>
 
@@ -126,11 +117,11 @@
 <div class='case'>
     <img src='icons/ref.png' class='edgeIcon'/>
 <div class='edge'>
-    <p>Quando não houver outro alvo disponível, deve rebater para quem usou a ação.</p>
+    <p>Quando não houver outro alvo disponível, deve refletir para quem usou a ação.</p>
+  </div>
   </div>
 
-  <br/><b>Modo Duo:</b>
-  </div>
+  <br/><b class="subtitle">Modo Duo:</b>
 
 <div class='case'>
     <img src='icons/ref.png' class='edgeIcon'/>
@@ -139,13 +130,7 @@
   </div>
   </div>
 
-<div class='case'>
-    <img src='icons/ref.png' class='edgeIcon'/>
-<div class='edge'>
-    <p>Jogando em dupla, você pode usar o Reflexo para proteger a sua dupla.</p>
-  </div>
-  <br/><b>Modo Single Shot:</b>
-  </div>
+  <br/><b class="subtitle">Modo Limite:</b>
 
 <div class='case'>
     <img src='icons/ref.png' class='edgeIcon'/>
@@ -153,6 +138,17 @@
     <p>Caso não hajam cartas na pilha de compras para repor o Reflexo. Você perde a carta.</p>
   </div>
 </div>
+
+  <br/><b class="subtitle">Regras Opicionais:</b>
+<div class='case'>
+  <img src='icons/ref.png' class='edgeIcon'/>
+    <div class='edge'>
+      <b>Ricochete:</b>
+    <p>Caso um jogador tenha o Reflexo durante a ação do Atirador. O jogador com o Reflexo deve escolher um novo número, o sentido muda e o jogador do Atirador passa a ser alvo da ação. A ação acaba no Reflexo, que não conta como alvo. Pode ser refletido novamente.</p>
+  </div>
+</div>
+
+<img src="icons/ref.png" id="art" />
 
 </body>
 </html>
