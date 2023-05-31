@@ -118,6 +118,58 @@ h1{
   padding-left: 50px;
 }
 
+/*O Jogo*/
+#backstabbers, #presentation{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+#backstabbers img{
+  width: 50%;
+}
+#presentation{
+  width: 50%;
+  text-align: justify;
+}
+#howTo{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 50px;
+}
+#howTo img{
+  margin: 0 50px;
+  width: 200px;
+}
+#howTo b{
+  width: 50%;
+  margin: 0 20px;
+}
+#howTo p{
+  font-size: 30px;
+  font-weight: bold;
+}
+#carta, #puxar, #jogar, #ganhar{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+#left{
+  position: fixed;
+  height: 100%;
+  top:0;
+  left:-10%;
+}
+#right{
+  position: fixed;
+  height: 100%;
+  top:0;
+  right:-10%;
+}
+
 /*Casos*/
 .edge{
   border: solid gray;
