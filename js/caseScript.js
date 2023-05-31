@@ -75,7 +75,7 @@ const lvladv = {
 const lvltypes = {
   "des": "Descriminador",
   "del": "Delator",
-  "com": "Comparador",
+  "comp": "Comparador",
   "nega": "Negacionista",
   "espc": "Especulador",
   "apr": "Aproveitador"
