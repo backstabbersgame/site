@@ -2,14 +2,10 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="../../css/style.css">
-<title>Traidora - Edge Cases</title>
   </head>
 <body>
 
 <div id='title'>
-<div class='titleIcon'>
-<img src='icons/trai.png' class='edgeTitle'>
-</div>
 <h1>Traidora</h1>
 </div>
 
@@ -42,11 +38,11 @@
   </div>
 
 <div class='case'>
-    <img src='icons/pob.png' class='edgeIcon'/>
-<div class='edge'>
-    <div class='edge'><img src='icons/ric.png' class='edgeIcon'/>
+    <img src='icons/trai.png' class='edgeIcon'/>
 <div class='edge'>
     <p>Caso tenha apenas o Pobre ou a Rica em mãos após descartar a Traidora, sua soma vale zero. Após a ação, você será eliminado de qualquer forma.</p>
+      <img src='icons/pob.png' class='innerEdge'/>
+    <img src='icons/ric.png' class='innerEdge'/>
   </div>
   </div>
 
@@ -62,17 +58,19 @@
 <div class='edge'>
     <p>Caso tenha apenas o Sacrifício em mão após descartar a Traidora, sacrifique-a e puxe uma carta do cemitério, caso seja a Traidora, você está eliminado.</p>
   </div>
-
-  <br/><b>Modo Infinito:</b>
   </div>
+
+  <br/><b class="subtitle">Modo Infinito:</b>
 
 <div class='case'>
     <img src='icons/trai.png' class='edgeIcon'/>
 <div class='edge'>
     <p>Caso você seja eliminado pela Traidora, não ganha nem perde moeda, pois você mesmo eliminou (+1), porém foi eliminado (-1).</p>
   </div>
-
 </div>
+</div>
+
+<img src="icons/trai.png" id="art"/>
 
 </body>
 </html>

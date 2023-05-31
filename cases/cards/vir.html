@@ -2,14 +2,10 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="../../css/style.css">
-<title>Vírus - Edge Cases</title>
   </head>
 <body>
 
 <div id='title'>
-<div class='titleIcon'>
-<img src='icons/vir.png' class='edgeTitle'>
-</div>
 <h1>Vírus</h1>
 </div>
 
@@ -60,23 +56,21 @@
 <div class='edge'>
     <p>Caso algum jogador tenha o Vírus em mãos após a ação do Eleições. Ativa a Epidemia.</p>
     </div>
+</div>
 
-  </br><b>Eleições (Político Avançado):</b>
   <div class='case'>
-    Se o segundo Político for utilizado enquanto o primeiro está no Campo de outro jogador, os jogadores que não têm Político e não estão protegidos devem entregar uma carta da mão para o Político em quem eles escolherem votar.
-    O Político que receber mais votos (cartas) leva as duas cartas de Político para seu Campo. O político vencedor deve, sem olhar, embaralhar as cartas recebidas e em seguida devolve-las aos seus eleitores.
-    Caso um Político seja movido para outro Campo, as eleições são realizadas novamente.
+    <div class="recap">
+    <b>Eleição (Político Avançado):</b>
+   Se o segundo  Político for utilizado enquanto o primeiro  está no Campo de outro jogador, os  jogadores que não têm Político e não estão  protegidos devem entregar uma carta da  mão para o Político em quem eles escolherem votar. O Político que receber mais votos (cartas)  leva as duas cartas de Político para seu  Campo. O político vencedor deve, sem olhar,  embaralhar as cartas recebidas e em  seguida devolvê-las aos seus eleitores. Caso um Político seja movido para outro  Campo, as eleições são realizadas  novamente. Eleições podem ativar a Epidemia.
   </div>
+</div>
 
-</br><b>Epidemia (Vírus):</b>
-    <div class='case'>
-        Os jogadores de ambos os lados da pessoa que recebeu o Vírus devem descartar todas as cartas da mão junto com ele. Depois, todos puxam uma carta a menos.
-       Caso alguém esteja protegido, a próxima pessoa desprotegida ao lado dela deve tomar o lugar, podendo afetar quem jogou a carta que iniciou a ação.
-       Se todos estiverem protegidos ou a próxima pessoa disponível já estiver participando da ação, não é afetada novamente.
+  <div class='case'>
+    <div class="recap">
+    <b>Epidemia (Vírus):</b>
+   Os jogadores dos lados esquerdo e direito da pessoa que recebeu o Vírus devem descartar todas as cartas da mão junto com ele. Depois, comprar uma carta a menos do que a quantidade que descartaram. Caso alguém esteja protegido, a próxima pessoa desprotegida ao lado dela deve tomar o lugar, podendo afetar quem jogou a carta que iniciou a ação. Se todos estiverem protegidos ou a próxima pessoa disponível já estiver participando da ação, não é afetada novamente.
   </div>
-
-
-  </div>
+</div>
 
 <div class='case'>
     <img src='icons/agi.png' class='edgeIcon'/>
@@ -88,7 +82,7 @@
 <div class='case'>
     <img src='icons/man.png' class='edgeIcon'/>
 <div class='edge'>
-    <p>Caso puxe o Vírus na ação do Manipulador, execute a ação do Vírus.</p>
+    <p>Caso puxe o Vírus na ação da Manipuladora, execute a ação do Vírus.</p>
   </div>
   </div>
 
@@ -97,49 +91,43 @@
 <div class='edge'>
     <p>Colocar o Vírus na Reserva de outro jogador não faz com que ele seja ativado.</p>
   </div>
-
-  <br/><b>Modo Duo:</b>
   </div>
+
+  <br/><b class="subtitle">Modo Duo:</b>
 
 <div class='case'>
     <img src='icons/vir.png' class='edgeIcon'/>
 <div class='edge'>
     <p>Jogando em dupla, caso sua dupla ative o Vírus que está em sua mão, a ação acontece normalemnte.</p>
   </div>
-  <br/><b>Modo Single Shot:</b>
-  </div>
+    </div>
+
+  <br/><b class="subtitle">Modo Limite:</b>
 
 <div class='case'>
     <img src='icons/vir.png' class='edgeIcon'/>
 <div class='edge'>
     <p>Caso não hajam cartas na pilha de compras para repor o Vírus, você perde uma carta.</p>
   </div>
-
-  <br/><b>Regras Opicionais:</b>
-  <br/><b>Contágio:</b>
     </div>
 
+  <br/><b class="subtitle">Regras Opicionais:</b>
+
 <div class='case'>
-      <img src='icons/esp.png' class='edgeIcon'/>
+      <img src='icons/vir.png' class='edgeIcon'/>
 <div class='edge'>
+  <b>Contágio:</b>
       <p>Todos os participantes da ação da carta que ativou o Vírus devem descartar as cartas da mão e comprar uma carta a menos. Menos quem entregou o Vírus.</p>
-    </div>
-      </div>
-
-<div class='case'>
-      <img src='icons/cam.png' class='edgeIcon'/>
-<div class='edge'>
       <p>Caso pegue o Vírus da mão de um jogador durante a ação de um Cambista, ativa o Contágio.</p>
-    </div>
-    </div>
+      <p>Caso puxe o Vírus da mão de um jogador durante a ação do Traficante Avançado, ativa o Contágio, se tiver pego a segunda carta de outro jogador, mesmo que seja do Campo, ele participa do Contágio.</p>
+      <img src='icons/cam.png' class='innerEdge'/>
+    <img src='icons/trafadv.png' class='innerEdge'/>
 
-<div class='case'>
-      <img src='icons/traf.png' class='edgeIcon'/>
-<div class='edge'>
-      <p>Caso puxe o Vírus da mão de um jogador durante a ação do Traficante Avançådo, ativa o Contágio, se tiver pego a segunda carta de outro jogador, mesmo que seja do Campo, ele participa do Contágio.</p>
     </div>
-
 </div>
+</div>
+
+<img src="icons/vir.png" id="art"/>
 
 </body>
 </html>
