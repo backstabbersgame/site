@@ -257,4 +257,7 @@ select{
   .edge, .recap{
     width: 90%;
   }
+  #menuOptions{
+    margin-left: 150px;
+  }
 }
