@@ -151,6 +151,7 @@ h1{
 #howTo p{
   font-size: 30px;
   font-weight: bold;
+  width: 300px;
 }
 #carta, #puxar, #jogar, #ganhar{
   display: flex;
@@ -198,14 +199,15 @@ h1{
   width: 100%;
   height: calc(100% - 190px);
 }
-#select{
+#selectNivel{
   display: flex;
   padding-left: 50px;
 }
 select{
-  width: 100%;
+  min-width: 200px;
 }
-#carta{
+#selectCarta{
+  flex-direction: column;
   margin-left: 20px;
 }
 #botao{
@@ -251,5 +253,8 @@ select{
   #presentation, #howTo{
     width: 80%;
     font-size: 30px;
+  }
+  .edge, .recap{
+    width: 90%;
   }
 }
