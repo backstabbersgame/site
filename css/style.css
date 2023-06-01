@@ -18,7 +18,8 @@ b{
   font-family: nunitoBold;
 }
 p{
-  font-family: nunito;
+  font-family: nunito;    
+  font-size: 15px;
 }
 a{
   font-family: nunitoBold;
@@ -145,7 +146,6 @@ h1{
   width: 200px;
 }
 #howTo b{
-  width: 50%;
   margin: 0 20px;
 }
 #howTo p{
@@ -247,5 +247,9 @@ select{
 @media only screen and (max-width: 1000px){
   #art,#left,#right{
     display: none;
+  }
+  #presentation, #howTo{
+    width: 80%;
+    font-size: 30px;
   }
 }
