@@ -73,13 +73,15 @@ const lvladv = {
 };
 
 const lvltypes = {
+  "Imp": "Impostor",
   "des": "Descriminador",
   "del": "Delator",
   "comp": "Comparador",
   "nega": "Negacionista",
   "espc": "Especulador",
   "Int": "Intrometido",
-  "apr": "Aproveitador"
+  "apr": "Aproveitador",
+  "trap": "Trapaceiro"
 };
 
 const lvlcons = {
