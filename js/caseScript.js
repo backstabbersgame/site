@@ -78,6 +78,7 @@ const lvltypes = {
   "comp": "Comparador",
   "nega": "Negacionista",
   "espc": "Especulador",
+  "Int": "Intrometido",
   "apr": "Aproveitador"
 };
 
