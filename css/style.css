@@ -322,5 +322,8 @@ select{
   #footer a{
     font-size: 30px;
   }
+  #content{
+  height: calc(100% - 200px);
+}
 
 }
