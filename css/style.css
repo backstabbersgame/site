@@ -323,7 +323,7 @@ select{
     font-size: 30px;
   }
   #content{
-  height: calc(100% - 200px);
+  height: calc(100% - 8.5%);
 }
 
 }
