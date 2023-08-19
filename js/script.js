@@ -3,6 +3,10 @@ function showPage(page){
   element.item(0).classList.remove("active");
   var element = document.getElementById(page);
   element.classList.add("active");
+  var element = document.getElementsByClassName("sideactive");
+  element.item(0).classList.remove("sideactive");
+  var element = document.getElementById("side"+page);
+  element.classList.add("sideactive");
 
   switch (page) {
     case 'jogo':
@@ -24,4 +28,13 @@ function showPage(page){
       document.getElementById('content').src = "jogo.html";
       break;
   }
+  closeNav();
 };
+
+function openNav() {
+  document.getElementById("sidemenu").style.width = "40%";
+}
+
+function closeNav() {
+  document.getElementById("sidemenu").style.width = "0";
+}

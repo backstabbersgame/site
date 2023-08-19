@@ -19,10 +19,12 @@ b{
 }
 p{
   font-family: nunito;    
-  font-size: 15px;
 }
 a{
   font-family: nunitoBold;
+}
+#open{
+  display: none;
 }
 
 #body{
@@ -33,6 +35,36 @@ a{
   float: left;
   margin: 5px;
 }
+
+#sidemenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.1s;
+    padding-top: 60px;  
+  }
+  #sidemenu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    display: block;
+  }
+  #sidemenu #closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .sideactive{
+    background-color: #222;
+  }
 
 #topmenu{
   position: absolute;
@@ -48,6 +80,9 @@ a{
   position: absolute;
   left: 15px;
   top: 5px;
+}
+#home{
+  height: 50px;
 }
 #menuOptions{
   width: 100%;
@@ -73,7 +108,7 @@ a{
   background-color: #222;
   color: white;
 }
-.active {
+.active{
   background-color: lightgray;
   color: black;
 }
@@ -257,7 +292,35 @@ select{
   .edge, .recap{
     width: 90%;
   }
-  #menuOptions{
-    margin-left: 150px;
+  
+  #open{
+    display: inline;
+    position: absolute;
   }
+  #logo{
+    position: relative;
+  }
+  #topmenu{
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  #home{
+    height: 100px;
+  }
+  #menuOptions{
+    display: none;
+  }
+  #content{
+    top: 100px;
+  }
+  #goldLogo{
+    display: none;
+  }
+  #footer a{
+    font-size: 30px;
+  }
+
 }
