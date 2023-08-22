@@ -227,7 +227,7 @@ h1{
   width: 50px;
   float: left;
 }
-#edgecases{
+#edgecases, #storyDisplay{
   position: absolute;
   right: 0;
   border: none;

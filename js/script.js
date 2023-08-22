@@ -12,6 +12,9 @@ function showPage(page){
     case 'jogo':
       document.getElementById('content').src = "jogo.html";
       break;
+    case 'universo':
+      document.getElementById('content').src = "universo.html";
+      break;
     case 'casos':
       document.getElementById('content').src = "casos.html";
       break;
