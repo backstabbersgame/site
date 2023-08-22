@@ -281,6 +281,21 @@ select{
   flex-direction: column;
 }
 
+/*Universo*/
+  #text{
+    margin-left: 60px;
+    width: 50%;
+    text-align: justify;
+  }
+
+  #chegada{
+    max-height: 100%;
+    max-width: 50%;
+    position: fixed;
+    top: 0;
+    right: 5%;
+  }
+
 @media only screen and (max-width: 1000px){
   #art,#left,#right{
     display: none;
@@ -324,6 +339,6 @@ select{
   }
   #content{
   height: calc(100% - 8.5%);
-}
+  }
 
 }
