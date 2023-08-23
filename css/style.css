@@ -11,7 +11,6 @@ body{
   font-family: nunito;
   height: 100%;
   color: black;
-  background: darkgray;
 }
 
 b{
@@ -224,7 +223,7 @@ h1{
   padding-left: 50px;
 }
 .edgeIcon{
-  width: 50px;
+  width: 70px;
   float: left;
 }
 #edgecases{
