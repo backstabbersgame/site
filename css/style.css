@@ -201,8 +201,8 @@ h1{
 }
 #right{
   position: fixed;
-  height: 100%;
-  top:0;
+  max-width: 30%;
+  top:10%;
   right:-10%;
   z-index: -1;
 }
