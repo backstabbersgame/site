@@ -11,7 +11,6 @@ body{
   font-family: nunito;
   height: 100%;
   color: black;
-  background: darkgray;
 }
 
 b{
@@ -202,8 +201,8 @@ h1{
 }
 #right{
   position: fixed;
-  height: 100%;
-  top:0;
+  max-width: 30%;
+  top:10%;
   right:-10%;
   z-index: -1;
 }
@@ -224,7 +223,7 @@ h1{
   padding-left: 50px;
 }
 .edgeIcon{
-  width: 50px;
+  width: 70px;
   float: left;
 }
 #edgecases, #storyDisplay{
