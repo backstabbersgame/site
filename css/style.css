@@ -296,11 +296,14 @@ select{
   }
 
 @media only screen and (max-width: 1000px){
-  #art,#left,#right{
+  #art,#left,#right,#chegada{
     display: none;
   }
   #presentation, #howTo{
     width: 80%;
+    font-size: 30px;
+  }
+  #title{
     font-size: 30px;
   }
   .edge, .recap{
@@ -338,6 +341,13 @@ select{
   }
   #content{
   height: calc(100% - 8.5%);
+  }
+
+  #text{
+    margin-left: 60px;
+    width: 80%;
+    text-align: justify;
+    font-size: 30px;
   }
 
 }
