@@ -295,6 +295,35 @@ select{
     right: 5%;
   }
 
+  #selectStory{
+    padding-left: 50px;
+  }
+
+  .storyButton{
+    max-height: 100px;
+  }
+  .storyButton:hover{
+    background-color: lightgray;
+  }
+
+  #Capitown{
+    
+  }
+  .region{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+    max-width: 90%;
+  }
+  .regionText{
+    width: 60%;
+  }
+  .regionImage{
+    padding: 0 30px;
+    max-width: 350px;
+  }
+
 @media only screen and (max-width: 1000px){
   #art,#left,#right,#chegada{
     display: none;
