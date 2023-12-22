@@ -301,6 +301,7 @@ select{
 
   .storyButton{
     max-height: 100px;
+    border-radius: 40%;
   }
   .storyButton:hover{
     background-color: lightgray;
@@ -322,6 +323,9 @@ select{
   .regionImage{
     padding: 0 30px;
     max-width: 350px;
+  }
+  .regionImageMobile{
+    display: none;
   }
 
 @media only screen and (max-width: 1000px){
@@ -379,4 +383,41 @@ select{
     font-size: 30px;
   }
 
+  #selectStory{
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .storyButton{
+    max-height: 150px;
+    margin: 0 20px;
+    border-radius: 50%;
+    background-color: #474EDD;
+    background-image: -webkit-linear-gradient(283deg, rgba(255, 255, 255, 0.1) 50%, transparent 55%),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.15), transparent);
+    box-shadow: 0 0 0 1px #163772 inset,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0      #333797,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .region{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    width: 100%;
+    font-size: 25px;
+  }
+  .regionText{
+    width: 100%;
+    text-align: justify;
+    padding-left: 100px;
+  }
+  .regionImage{
+    display: none;
+  }
+  .regionImageMobile{
+    padding: 100px 0 0 0;
+    max-width: 80%;
+    display: inline;
+  }
 }
