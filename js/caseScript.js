@@ -87,13 +87,20 @@ const lvltypes = {
 };
 
 const lvlcons = {
+  "adt":"Aditivo",
   "esc": "Escassez",
   "far": "Fartura",
+  "hal": "Halloween",
   "heg": "Hegemonia",
+  "ipm": "Imposto por Morte",
   "lar": "Lei da Ação e Reação",
-  "cao": "Lei do Caos",
+  "lbv": "Lei da Boa Vizinhança",
+  "cao": "Lei do Cão",
+  "caos": "Lei do Caos",
   "com": "Lei do Comum Acordo",
+  "conf": "Lei da Confusão",
   "dev": "Lei dos Deveres",
+  "igu": "Lei dos Iguais",
   "ine": "Lei da Inércia",
   "lim": "Lei do Limite",
   "for": "Lei do Mais Forte",
@@ -104,8 +111,13 @@ const lvlcons = {
   "par": "Lei dos Pares",
   "prx": "Lei do Próximo",
   "rep": "Lei da Repetição",
+  "repa": "Lei da Reparação",
   "ret": "Lei do Retorno",
-  "tro": "Lei da Troca"
+  "tro": "Lei da Troca",
+  "vaz": "Lei da Vaza",
+  "mt": "Marcação de Território",
+  "ra": "Reforma Agrária",
+  "sub": "Subtrativo"
 };
 const pro = {
   "pro":"Procurado"
