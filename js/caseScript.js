@@ -88,7 +88,9 @@ const lvltypes = {
 
 const lvlcons = {
   "adt":"Aditivo",
+  "asc": "Ascendente",
   "esc": "Escassez",
+  "desc": "Descendente",
   "far": "Fartura",
   "hal": "Halloween",
   "heg": "Hegemonia",
@@ -113,10 +115,12 @@ const lvlcons = {
   "rep": "Lei da Repetição",
   "repa": "Lei da Reparação",
   "ret": "Lei do Retorno",
+  "sup": "Lei da Surpresa",
   "tro": "Lei da Troca",
   "vaz": "Lei da Vaza",
   "mt": "Marcação de Território",
   "ra": "Reforma Agrária",
+  "sob": "Soberano",
   "sub": "Subtrativo"
 };
 const pro = {
