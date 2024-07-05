@@ -72,10 +72,11 @@ const lvladv = {
   "traiadv": "Traidora"
 };
 
-const lvltypes = {
+const metas = {
+  "pro" : "Procurado",
   "Imp": "Impostor",
   "ped":"Pedinte",
-  "des": "Descriminador",
+  "dis": "Discriminadora",
   "del": "Delator",
   "comp": "Comparador",
   "nega": "Negacionista",
@@ -83,7 +84,12 @@ const lvltypes = {
   "apr": "Aproveitador",
   "Int": "Intrometido",
   "Intm": "Intimidador",
-  "trap": "Trapaceiro"
+  "trap": "Trapaceiro",
+  "env": "Envenenadora",
+  "ger": "Gerente",
+  "mp": "Mau Presságio",
+  "fal": "Falsificadora",
+  "men": "Mentirosa"
 };
 
 const lvlcons = {
@@ -102,6 +108,7 @@ const lvlcons = {
   "com": "Lei do Comum Acordo",
   "conf": "Lei da Confusão",
   "dev": "Lei dos Deveres",
+  "exa": "Lei da Exatidão",
   "igu": "Lei dos Iguais",
   "ine": "Lei da Inércia",
   "lim": "Lei do Limite",
@@ -116,15 +123,15 @@ const lvlcons = {
   "repa": "Lei da Reparação",
   "ret": "Lei do Retorno",
   "sup": "Lei da Surpresa",
+  "tri": "Lei dos Tributos",
   "tro": "Lei da Troca",
   "vaz": "Lei da Vaza",
   "mt": "Marcação de Território",
+  "refo": "Reforços",
   "ra": "Reforma Agrária",
+  "repr": "Reprise",
   "sob": "Soberano",
   "sub": "Subtrativo"
-};
-const pro = {
-  "pro":"Procurado"
 };
 
 function getCardsByLevel(level){
@@ -147,14 +154,11 @@ function getCardsByLevel(level){
     case 'lvladv':
       return lvladv;
       break;
-    case 'lvltypes':
-      return lvltypes;
+    case 'metas':
+      return metas;
       break;
     case 'lvlcons':
       return lvlcons;
-      break;
-    case 'pro':
-      return pro;
       break;
     default:
       var ret = {0 : "Nível inválido"};
