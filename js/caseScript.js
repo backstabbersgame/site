@@ -55,41 +55,40 @@ const lvl5 = {
 };
 
 const lvladv = {
-  "ajuadv": "Ajudante",
-  "sortadv": "Sortudo",
-  "fisadv": "Fiscal",
-  "sorradv": "Sorrateira",
-  "arradv": "Arruaceiro",
-  "det": "Detetive",
-  "inf": "Infiltrado",
   "as": "Agente Secreto",
-  "oraadv": "Oráculo",
-  "poladv": "Político",
-  "trafadv": "Traficante",
+  "ajuadv": "Ajudante",
+  "arradv": "Arruaceiro",
   "caradv": "Cartomante",
-  "usuadv": "Usurpadora",
-  "vidad": "Vidente",
-  "traiadv": "Traidora"
+  "deladv": "Delator",
+  "det": "Detetive",
+  "geradv": "Gerente",
+  "incadv": "Incendiária",
+  "inf": "Infiltrado",
+  "oraadv": "Oráculo",
+  "sorradv": "Sorrateira",
+  "trafadv": "Traficante",
+  "trapadv": "Trapaceira",
+  "vidad": "Vidente"
 };
 
 const metas = {
-  "pro" : "Procurado",
-  "Imp": "Impostor",
-  "ped":"Pedinte",
-  "dis": "Discriminadora",
-  "del": "Delator",
-  "comp": "Comparador",
-  "nega": "Negacionista",
-  "espc": "Especulador",
   "apr": "Aproveitador",
-  "Int": "Intrometido",
-  "Intm": "Intimidador",
-  "trap": "Trapaceiro",
+  "comp": "Comparador",
+  "del": "Delator",
+  "dis": "Discriminadora",
   "env": "Envenenadora",
-  "ger": "Gerente",
-  "mp": "Mau Presságio",
+  "espc": "Especulador",
   "fal": "Falsificadora",
-  "men": "Mentirosa"
+  "ger": "Gerente",
+  "imp": "Impostor",
+  "intm": "Intimidador",
+  "int": "Intrometido",
+  "mp": "Mau Presságio",
+  "men": "Mentirosa",
+  "nega": "Negacionista",
+  "ped":"Pedinte",
+  "pro" : "Procurado",
+  "trap": "Trapaceira"
 };
 
 const lvlcons = {
@@ -125,7 +124,7 @@ const lvlcons = {
   "tri": "Lei dos Tributos",
   "tro": "Lei da Troca",
   "part": "Partilha de Bens",
-  "ple": "Plebicito",
+  "ple": "Plebiscito",
   "refo": "Reforços",
   "ra": "Reforma Agrária",
   "repr": "Reprise",
