@@ -19,38 +19,55 @@ const lvl2 = {
   "ati": "Atirador",
   "arb": "Árbitro",
   "inc": "Incendiária",
+  "dit": "Ditador",
+  "traf": "Traficante",
   "jui": "Juiz",
+  "nec": "Necromante",
+  "mp": "Mau Presságio",
   "emp": "Empreendedor"
 };
 
 const lvl3 = {
+  "ref": "Reflexo",
   "fis": "Fiscal",
+  "dis": "Discriminadora",
   "ora": "Oráculo",
+  "env": "Envenenadora",
   "pol": "Político",
-  "traf": "Traficante",
+  "ger": "Gerente",
   "usu": "Usurpadora",
   "fof": "Fofoqueira",
   "lad": "Ladrão",
-  "sac": "Sacrifício"
+  "sac": "Sacrifício",
+  "fal": "Falsificadora"
 };
 
 const lvl4 = {
-  "ref": "Reflexo",
+  "imp": "Impostor",
   "gc": "Guarda Costas",
   "sorr": "Sorrateira",
-  "cam": "Cambista",
-  "dit": "Ditador",
-  "seg": "Segurança"
+  "del": "Delator",
+  "comp": "Comparador",
+  "nega": "Negacionista",
+  "espc": "Especulador",
+  "apr": "Aproveitador",
+  "int": "Intrometida",
+  "seg": "Segurança",
+  "trap": "Trapaceira"
 };
 
 const lvl5 = {
   "apa": "Apanhador",
+  "ped":"Pedinte",
   "arr": "Arruaceiro",
+  "cam": "Cambista",
   "agi": "Agiota",
   "vir": "Vírus",
   "car": "Cartomante",
-  "man": "Manipulador",
-  "nec": "Necromante",
+  "man": "Manipuladora",
+  "men": "Mentirosa",
+  "intm": "Intimidador",
+  "pro" : "Procurado",
   "trai": "Traidora"
 };
 
@@ -71,26 +88,6 @@ const lvladv = {
   "trafadv": "Traficante",
   "trapadv": "Trapaceira",
   "vidad": "Vidente"
-};
-
-const metas = {
-  "apr": "Aproveitador",
-  "comp": "Comparador",
-  "del": "Delator",
-  "dis": "Discriminadora",
-  "env": "Envenenadora",
-  "espc": "Especulador",
-  "fal": "Falsificadora",
-  "ger": "Gerente",
-  "imp": "Impostor",
-  "intm": "Intimidador",
-  "int": "Intrometido",
-  "mp": "Mau Presságio",
-  "men": "Mentirosa",
-  "nega": "Negacionista",
-  "ped":"Pedinte",
-  "pro" : "Procurado",
-  "trap": "Trapaceira"
 };
 
 const lvlcons = {
@@ -154,9 +151,6 @@ function getCardsByLevel(level){
       break;
     case 'lvladv':
       return lvladv;
-      break;
-    case 'metas':
-      return metas;
       break;
     case 'lvlcons':
       return lvlcons;
