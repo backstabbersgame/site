@@ -1,6 +1,6 @@
 [submodule "links"]
 	path = links
 	url = git@github.com:backstabbersgame/links.git
-[submodule "solara-studios"]
-	path = solara-studios
-	url = git@github.com:backstabbersgame/solara-studios.git
+[submodule "landing-page"]
+	path = landing-page
+	url = https://github.com/backstabbersgame/landing-page.git
